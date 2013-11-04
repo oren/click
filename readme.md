@@ -1,1 +1,1 @@
-# Mobile phone presentation slider using Web Sockets
+# Mobile phone Presentation Controller
