@@ -13,12 +13,11 @@ you should see 'move slide next' in the console of slides.html
 
 
 ```
-        phone.html                                         slides.html
-                                   server.js
-      +------------+             +------------+          +------------+
-      | next slide |             |            |          |            |
-      |            |   +---->    | WebSockets | +---->   |            |
-      |            |             |            |          |            |
-      | prev slide |             |            |          |            |
-      +------------+             +------------+          +------------+
+phone.html                  server.js              slides.html
++------------+             +------------+          +------------+
+| next slide |             |            |          |            |
+|            |   +---->    | WebSockets | +---->   |            |
+|            |             |            |          |            |
+| prev slide |             |            |          |            |
++------------+             +------------+          +------------+
 ```
