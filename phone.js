@@ -16,7 +16,7 @@ function emitPrevious() {
   stream.write('previous');
 }
 
-// this works 
+// this works
 stream.pipe(through(function (msg) {
-  console.log('move slide', msg);
+  // console.log('move slide', msg);
 }));
