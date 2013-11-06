@@ -8,5 +8,5 @@ open localhost:3001
 open localhost:3001/slides.html
 click on next (on index.html)
 
-you should see 'move slide next' in slides.html
+you should see 'move slide next' in the console of slides.html
 ```
