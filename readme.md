@@ -10,3 +10,15 @@ click on next (on index.html)
 
 you should see 'move slide next' in the console of slides.html
 ```
+
+
+```
+        phone.html                                         slides.html
+                                   server.js
+      +------------+             +------------+          +------------+
+      | next slide |             |            |          |            |
+      |            |   +---->    | WebSockets | +---->   |            |
+      |            |             |            |          |            |
+      | prev slide |             |            |          |            |
+      +------------+             +------------+          +------------+
+```
